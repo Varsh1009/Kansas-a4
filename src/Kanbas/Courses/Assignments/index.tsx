@@ -36,6 +36,7 @@ export default function Assignments() {
             <FaPlus className="me-1" />
             Group
           </button>
+          {/* on clicking , it should take me to assignment editor screen  */}
           <button className="btn btn-danger">
             <FaPlus className="me-1" />
             Assignment
@@ -99,7 +100,37 @@ export default function Assignments() {
                   {/* </span> */}
                 </li>
               ))}
-            
+            {/* <li className="wd-assignment-list-item list-group-item p-3 ps-1 border-success border-top-0 border-end-0 border-bottom-0 border-5">
+              <BsGripVertical className="me-2 fs-3" />
+              <PiNotePencilFill className="me-2 fs-3 " />
+              <a
+                className="wd-assignment-link"
+                href={`#/Kanbas/Courses/${cid}/Assignments/123`}
+              >
+                A2 - CSS + BOOTSTRAP
+              </a>
+              <LessonControlButtons />
+              <br />
+              <span className="text-danger">Multiple Modules </span> |{" "}
+              <b>Not available unitl</b> May 13 at 12:00 am | <br />
+              <b>Due</b> May 20 at 11:59 pm | 100 pts
+            </li>
+
+            <li className="wd-assignment-list-item list-group-item p-3 ps-1 border-success border-top-0 border-end-0 border-bottom-0 border-5">
+              <BsGripVertical className="me-2 fs-3" />
+              <PiNotePencilFill className="me-2 fs-3 " />
+              <a
+                className="wd-assignment-link"
+                href={`#/Kanbas/Courses/${cid}/Assignments/123`}
+              >
+                A3 - JAVASCRIPT + REACT
+              </a>
+              <LessonControlButtons />
+              <br />
+              <span className="text-danger">Multiple Modules </span> |{" "}
+              <b>Not available unitl</b> May 20 at 12:00 am | <br />
+              <b>Due</b> May 27 at 11:59 pm | 100 pts
+            </li> */}
           </ul>
         </li>
       </ul>

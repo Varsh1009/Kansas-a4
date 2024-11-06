@@ -11,9 +11,10 @@ export default function Labs() {
   return (
     <Provider store={store}>
       <div id="wd-labs">
-        <h1>Labs</h1>
-        <h3>Name :- Shrivarshini Narayanan</h3>
-        <h4>Section :- 3</h4>
+        <h2> WEB DEVELOPMENT</h2>
+        <h3> labs </h3>
+        <h2>Shrivarshini Narayanan</h2>
+        <h4>Section - 03</h4>
         <TOC />
         <Routes>
           <Route path="/" element={<Navigate to="Lab1" />} />
