@@ -4,7 +4,7 @@ import { Provider } from "react-redux";
 import Lab1 from "./Lab1";
 import Lab2 from "./Lab2";
 import Lab3 from "./Lab3";
-import TOC from "./toc";
+import TOC from "./TOC";
 import Lab4 from "./Lab4";
 
 export default function Labs() {
