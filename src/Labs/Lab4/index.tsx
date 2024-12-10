@@ -1,51 +1,39 @@
-import ArrayStateVariable from "./ArrayStateVariable";
-import BooleanStateVariables from "./BooleanStateVariables";
-import ChildStateComponent from "./ChildStateComponent";
 import ClickEvent from "./ClickEvent";
-import Counter from "./Counter";
-import DateStateVariable from "./DateStateVariable";
 import EventObject from "./EventObject";
-import ObjectStateVariable from "./ObjectStateVariable";
-import ParentStateComponent from "./ParentStateComponent";
 import PassingDataOnEvent from "./PassingDataOnEvent";
 import PassingFunctions from "./PassingFunctions";
-import ReduxExamples from "./ReduxExamples";
+import Counter from "./Counter";
+import "./index.css";
+import BooleanStateVariables from "./BooleanStateVariables";
 import StringStateVariables from "./StringStateVariables";
+import DateStateVariable from "./DateStateVariable";
+import ObjectStateVariable from "./ObjectStateVarianle";
+import ArrayStateVariable from "./ArrayStateVariable";
+import ParentStateComponent from "./ParentStateComponent";
+import React from "react";
+import ReduxExamples from "./ReduxExamples";
 
 export default function Lab4() {
-  function sayHello() {
-    alert("Hello");
-  }
-  {
+    function sayHello() {
+        alert("Hello");
+      }    
     return (
-      <div id="wd-passing-functions">
+      <div className="container">
         <h2>Lab 4</h2>
+        <h3>Managing State in React.js Application</h3>
+        <br/>
         <ClickEvent />
-        <hr />
         <PassingDataOnEvent />
-        <hr />
-        <PassingFunctions theFunction={sayHello} />
-        <hr />
+        <PassingFunctions theFunction={sayHello}/>
         <EventObject />
-        <hr />
         <Counter />
-        <hr />
         <BooleanStateVariables />
-        <hr />
         <StringStateVariables />
-        <hr />
-        <DateStateVariable />
-        <hr />
         <ObjectStateVariable />
-        <hr />
-        <ArrayStateVariable/>
-        <hr />
+        <DateStateVariable />
+        <ArrayStateVariable />
         <ParentStateComponent />
-        <hr />
         <ReduxExamples/>
-       
-      </div>
-
+    </div>
     );
-  }
 }

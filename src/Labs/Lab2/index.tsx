@@ -1,25 +1,22 @@
 import "./index.css";
 import ForegroundColors from "./ForegroundColors";
-import { Routes, Route, Navigate } from "react-router";
 import BackgroundColors from "./BackgroundColors";
 import Borders from "./Borders";
 import Padding from "./Padding";
 import Margins from "./Margins";
 import Corners from "./Corners";
-import Dimensions from "./Dimensions";
-import Positons from "./Position";
-import Zindex from "./Zindex";
-import Float from "./Float";
-import GridLayout from "./GridLayout";
+import Dimensions from "./Dimension";
+import Positions from "./Positions";
+import ZIndex from "./ZIndex";
+import Floating from "./Float";
 import Flex from "./Flex";
-import BootstrapGrid from "./BootstrapGrid";
-import ScreenSizeLabel from "./ScreenSizeLabel";
+import ReactIconsSampler from "./ReactIcons";
+import BootstrapGrids from "./BootstrapGrids";
 import BootstrapTables from "./BootstrapTables";
-import BootstrapList from "./BootstrapLists";
+import ScreenSizeLabel from "./ScreenSizeLabel";
+import BootstrapList from "./BootstrapList";
 import BootstrapForms from "./BootstrapForms";
 import BootstrapNavigation from "./BootstrapNavigation";
-
-
 export default function Lab2() {
   return (
     <div className="container">
@@ -45,7 +42,6 @@ export default function Lab2() {
           This heading has same style as paragraph above
         </h4>
       </div>
-
       <div id="wd-css-document-structure">
         <div className="wd-selector-1">
           <h3>Document structure selectors</h3>
@@ -66,63 +62,24 @@ export default function Lab2() {
           </div>
         </div>
       </div>
-      <div>
-        <ForegroundColors />
-      </div>
-      <div>
-        <BackgroundColors />
-      </div>
-      <div>
-        <Borders/>
-      </div>
-      <div>
-        <Padding/>
-      </div>
-      <div>
-        <Margins/>
-      </div>
-      <div>
-        <Corners/>
-      </div>
-      <div>
-        <Dimensions/>
-      </div>
-      <div>
-        <Positons/>
-      </div>
-      <div>
-        <Zindex/>
-      </div>
-      <div>
-        <Float/>
-      </div>
-      <div>
-        <GridLayout/>
-      </div>
-      <div>
-        <Flex/>
-      </div>
-      <div>
-        <BootstrapGrid/>
-      </div>
-      <div>
-        <ScreenSizeLabel/>
-      </div>
-      <div>
-         <BootstrapTables/>
-      </div>
-      <div>
-        <BootstrapList/>
-      </div>
-      <div>
-        <BootstrapForms/>
-      </div>
-      <div>
-        <BootstrapNavigation/>
-      </div>
-
+      <ForegroundColors /><br></br>
+      <BackgroundColors /><br></br>
+      <Borders /><br></br>
+      <Padding /><br></br>
+      <Margins /><br></br>
+      <Corners /><br></br>
+      <Dimensions /><br></br>
+      <Positions /><br></br>
+      <ZIndex /><br></br>
+      <Floating /><br></br>
+      <Flex /><br></br>
+      <ReactIconsSampler /><br></br>
+      <BootstrapGrids /><br></br>
+      <BootstrapTables /><br></br>
+      <ScreenSizeLabel /><br></br>
+      <BootstrapList /><br></br>
+      <BootstrapForms /><br></br>
+      <BootstrapNavigation /><br></br>
     </div>
   );
 }
-
-

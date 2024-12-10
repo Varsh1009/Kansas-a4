@@ -1,5 +1,5 @@
 import { IoEllipsisVertical } from "react-icons/io5";
-import GreenCheckmark from "./GreenCheckmark";
+import GreenCheckmark from "./GreenCheckMark";
 export default function LessonControlButtons() {
   return (
     <div className="float-end">
@@ -7,4 +7,3 @@ export default function LessonControlButtons() {
       <IoEllipsisVertical className="fs-4" />
     </div>
 );}
-

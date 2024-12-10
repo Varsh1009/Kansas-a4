@@ -10,10 +10,13 @@ export default function TodoList() {
       <ul className="list-group">
         <TodoForm />
         {todos.map((todo: any) => (
-          <TodoItem todo={todo} />
+          <TodoItem todo={todo} deleteTodo={function (id: string): void {
+                throw new Error("Function not implemented.");
+            } } setTodo={function (todo: { id: string; title: string; }): void {
+                throw new Error("Function not implemented.");
+            } } />
         ))}
       </ul>
       <hr/>
     </div>
 );}
-

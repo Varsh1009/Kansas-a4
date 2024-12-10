@@ -4,8 +4,7 @@ export default function HelloRedux() {
   return (
     <div id="wd-hello-redux">
       <h3>Hello Redux</h3>
-      <h4>{message}</h4> <hr />
+      <h4>Learning Redux!</h4> <hr />
     </div>
   );
 }
-

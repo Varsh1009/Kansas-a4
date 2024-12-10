@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 export default function DateStateVariable() {
   const [startDate, setStartDate] = useState(new Date());
   const dateObjectToHtmlDateString = (date: Date) => {
@@ -9,15 +9,13 @@ export default function DateStateVariable() {
   return (
     <div id="wd-date-state-variables">
       <h2>Date State Variables</h2>
-      <h3>{JSON.stringify(startDate)}</h3>
-      <h3>{dateObjectToHtmlDateString(startDate)}</h3>
+      <h4>{JSON.stringify(startDate)}</h4>
+      <h4>{dateObjectToHtmlDateString(startDate)}</h4>
       <input
         className="form-control"
         type="date"
         defaultValue={dateObjectToHtmlDateString(startDate)}
         onChange={(e) => setStartDate(new Date(e.target.value))}
       />
-      <hr />
-    </div>
-  );
-}
+<hr/></div>);}
+

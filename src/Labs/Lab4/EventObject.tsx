@@ -2,7 +2,6 @@ import React, { useState } from "react";
 export default function EventObject() {
   const [event, setEvent] = useState(null);
   const handleClick = (e: any) => {
-    console.log(e);
     e.target = e.target.outerHTML;
     delete e.view;
     setEvent(e);
@@ -18,4 +17,5 @@ export default function EventObject() {
       <pre>{JSON.stringify(event, null, 2)}</pre>
       <hr/>
     </div>
-);}
+);
+}
