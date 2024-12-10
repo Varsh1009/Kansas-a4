@@ -7,7 +7,7 @@ import Margins from "./Margins";
 import Corners from "./Corners";
 import Dimensions from "./Dimension";
 import Positions from "./Positions";
-import ZIndex from "./ZIndex";
+import ZIndex from "./Zindex";
 import Floating from "./Float";
 import Flex from "./Flex";
 import ReactIconsSampler from "./ReactIcons";
