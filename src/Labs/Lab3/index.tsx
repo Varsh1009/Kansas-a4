@@ -4,7 +4,7 @@ import IfElse from "./IfElse";
 import TernaryOperator from "./TernaryOperator";
 import VariablesAndConstants from "./VariablesAndConstants";
 import VariableTypes from "./VariableTypes";
-import ConditionalOutputInline from "./ConditionalOutputInLine";
+import ConditionalOutputInline from "./ConditionalOutputInline";
 import LegacyFunctions from "./LegacyFunctions";
 import ArrowFunctions from "./ArowFunctions";
 import ImpliedReturn from "./ImpliedReturn";
